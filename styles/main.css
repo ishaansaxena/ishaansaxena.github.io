@@ -1,28 +1,131 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.body {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+::-moz-selection {
+  background: #81CFE0;
+}
+::selection {
+  background: #81CFE0;
 }
 
-.navbar {
+::-moz-selection {
+  background: #81CFE0;
+}
+
+html {
+  background: #000000;
+  height: 100%;
+}
+
+.body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+  color: #BBBBBB;
+  background-size: cover;
+  background-position: center center;
+}
+
+.body a {
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.body a:hover {
+  opacity: 0.5;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding: 40px 40px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-transition: background 0.25s ease;
+  transition: background 0.25s ease;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 20px 20px;
+  }
+}
+
+.container .heading {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.container .text {
+  margin: 1rem 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 40%;
+  color: #BBBBBB;
+}
+
+@media (max-width: 1024px) {
+  .container .text {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container .text {
+    width: 100%;
+  }
+}
+
+.container .ipa {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.container a {
+  color: #CCCCCC;
+}
+
+.nav .link {
+  display: inline-block;
+  margin: 1rem 0.5rem 0 0;
+  font-size: 1.15rem;
+  color: #3F51B5;
+  opacity: 0.6;
+}
+
+.nav .link:hover {
+  opacity: 0.85;
+}
+
+.carousel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: fixed;
-  bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel .slide {
+  display: block;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   width: 100%;
 }
 
-.navbar .link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Jost', sans-serif;
-  font-size: 1.5rem;
+.shelf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
