@@ -158,9 +158,69 @@ html
             transition: opacity 0.25s ease
             font-style: italic
             color: $white_d
+            display: none
 
     .section
         font-size: 2rem
         font-weight: 400
         -webkit-text-stroke: 1px $black
         -webkit-text-fill-color: $white
+
+.contact
+    .section
+        margin: 0
+        font-size: 1.25rem
+        display: inline-block
+    .link
+        display: inline-block
+        width: 2rem
+        height: 2rem
+        border: solid 1px $grey_d
+        text-shadow: none
+        text-align: center
+        margin: 0 0.5rem 0 0 
+        transition: all 0.3s ease
+        &.twitter
+            box-shadow: inset 0 0rem 0 0 $twitter
+            border-color: $twitter
+            .fa
+                color: $twitter
+            &:hover
+                box-shadow: inset 0 -3rem 0 $twitter
+        &.linkedin
+            box-shadow: inset 0 0rem 0 0 $linkedin
+            border-color: $linkedin
+            .fa
+                color: $linkedin
+            &:hover
+                box-shadow: inset 0 -3rem 0 $linkedin
+        &.instagram
+            box-shadow: inset 0 0rem 0 0 $instagram
+            border-color: $instagram
+            .fa
+                color: $instagram
+            &:hover
+                box-shadow: inset 0 -3rem 0 $instagram
+        &.email
+            box-shadow: inset 0 0rem 0 0 $gmail
+            border-color: $gmail
+            .fa
+                color: $gmail
+            &:hover
+                box-shadow: inset 0 -3rem 0 $gmail
+        &.github
+            box-shadow: inset 0 0rem 0 0 $github
+            border-color: $github
+            .fa
+                color: $github
+            &:hover
+                box-shadow: inset 0 -3rem 0 $github
+        &:hover
+            .fa
+                color: $white
+        .fa
+            font-size: 1rem
+            transform: translateY(0.5rem)
+    
+        
+

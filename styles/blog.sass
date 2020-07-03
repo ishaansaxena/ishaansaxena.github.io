@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+$white: #fefefe
+$black: #333
+$green: #009688
+$grey: #f2f2f2
+$blue: darken(#4183D7, 20%)
+
+::-moz-selection
+    background: $black
+    color: $white
+    text-shadow: none
+
+::selection
+    background: $black
+    color: $white
+    text-shadow: none
+
+html
+    background: $grey
+
+body
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    font-family: "Jost", san-serif
+    background: url(../images/words.jpg) center center;
+
+a
+    color: $green
+
+    &:hover
+        color: darken($green, 5%)
+
+.content
+    display: block
+    background: rgba(255, 255, 255, 0.95)
+    min-height: 100vh
+    width: 100%
+
+.container
+    display: block
+    position: relative
+    padding: 40px 40px
+    margin: 0
+    box-sizing: border-box
+    transition: background 0.25s ease
+    @media(max-width: 800px)
+        padding: 20px 20px
+
+    h1
+        margin: 0
+        font-size: 3rem
+        font-weight: 400
+        color: $black
+
+    .blog-link
+        display: block
+        font-size: 1rem
+        text-decoration: none
+        color: darken($grey, 15%)
+        margin-bottom: 1rem
+
+    h1
+        margin: 0
+        font-size: 2.5rem
+        font-weight: 400
+        color: $black
+
+    h2, h3, h4, h5, h6
+        margin-top: 2rem
+        margin-bottom: 1rem
+        font-weight: 500
+
+    p
+        margin: 0
+        margin-bottom: 0.75rem
+        font-size: 1.15rem
+        font-weight: 300
+
+    pre > code
+        display: block
+        position: relative
+        padding: 1rem
+        width: auto
+        background: #e8e8e8
+
+    pre.prettyprint
+        border: none !important
+
+    center
+        display: block
+        position: relative
+        width: 60%
+        left: 20%
+        @media (max-width: 768px)
+            width: 100%
+            left: 0
+
+    blockquote
+        margin: 1rem 0
+        padding: 0 2rem
+        text-align: center
+
+    .date
+        display: block
+        // text-align: center
+        margin-bottom: 2rem
+        color: #777
+
+    img
+        margin: 1rem 0
+        width: 100%
+
+// .article-container
+
+//     .article-group
+//         display: block
+//         position: relative
+//         margin: 0 0 2rem 0
+
+//         .year
+//             position: relative
+//             top: 0
+//             background: $white
+//             display: inline-block
+//             width: 100%
+//             text-align: center
+//             padding: 2rem 0 2rem 0
+//             margin-top: 0
+//             margin-bottom: 0rem
+//             font-size: 2rem
+//             font-weight: 400
+//             letter-spacing: 3px
+//             color: $black
+//             &::after
+//                 content: ''
+//                 display: block
+//                 position: relative
+//                 top: 0
+//                 width: 10rem
+//                 height: 1px
+//                 // box-shadow: inset 0 0 0 0 #000
+//                 background: #dfe2df
+//                 transform: translate(0, 0.5rem)
+//                 transition: all 0.5s ease
+//                 margin: 0.5rem auto 0 auto
+//                 // margin-left: -100%
+//                 opacity: 1
+//             @media (max-width: 768px)
+//                 position: sticky
+//                 background: darken($white, 2%)
+//                 box-shadow: inset 0 1rem 0 0 $white, inset 0 -1.25rem 0 0 $white
+//                 font-size: 1.5rem
+//                 &::after
+//                     opacity: 0
+
+//         &:hover
+//             .year::after
+//                 background: $black
+//                 // margin-left: 0
+//                 // box-shadow: inset 0 0 0 1px #000
+
+//     .article
+//         display: block
+//         text-decoration: none
+//         text-align: center
+//         margin-bottom: 2rem
+
+//         .heading
+//             font-size: 1.25rem
+//             color: $black
+
+//         .meta
+//             font-size: 1rem
+
+//         .heading, .meta
+//             margin: 0
+//             line-height: 1.25
+//             transition: all 0.2s ease-in-out
+
+//         &:hover
+//             .heading
+//                 transform: translateY(0.6rem)
+//             .meta
+//                 transform: translateY(-0.6rem)
+//                 opacity: 0
+
+pre
+    white-space: pre-wrap
+    word-wrap: break-word
+
+.videoWrapper
+    position: relative
+    margin: 1rem 0
+    padding-bottom: 40%
+    padding-top: 25px
+    height: 0
+    @media (max-width: 768px)
+        padding-bottom: 56.25%
+
+.videoWrapper iframe
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+    width: 100%
+    height: 100%
