@@ -1,6 +1,7 @@
 function setBackground(url, opacity) {
     // document.getElementById('main').style.background = 'rgba(255, 255, 255, 0)';
     document.body.style.background = `url(${url}) center center fixed`;
+    document.body.style.backgroundSize = 'cover';
     document.getElementById('main').style.background = `rgba(255, 255, 255, ${opacity} )`;
 }
 
