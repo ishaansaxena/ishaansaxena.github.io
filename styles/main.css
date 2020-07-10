@@ -44,7 +44,7 @@ html {
   min-height: 100vh;
   -webkit-transition: background 0.25s ease;
   transition: background 0.25s ease;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.96);
 }
 
 @media (max-width: 800px) {
@@ -192,6 +192,7 @@ html {
 .content .text {
   font-size: 1.25rem;
   color: #333333;
+  font-weight: 300;
 }
 
 .content .subsection {
@@ -226,10 +227,12 @@ html {
 
 .content .subsection .desc {
   margin: 0.5rem 0 0 0;
+  font-weight: 300;
 }
 
 .content .subsection .subdesc {
   margin: 0 0 0.25rem 0;
+  font-weight: 300;
 }
 
 .content .subsection .date {

@@ -88,4 +88,4 @@ It stills seems, though, that the debate of free will & determinism is far from 
 10. <span id="10">Nozick, R. (1974). Anarchy, State, and Utopia. New York: Basic Books.</span>
 11. <span id="11">Clarke, R. (2002). Libertarian Views: Critical Survey of Non-causal and Event-Causal Accounts of Free Agency. New York: Oxford University Press.</span>
 
-<center><a href="/blog/assets/files/freewill.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/freewill.pdf">View Original Document</a>

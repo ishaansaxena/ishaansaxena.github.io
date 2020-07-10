@@ -9,7 +9,7 @@ function setBackground(url, opacity) {
     // Nav Link Handling
     navLinks = document.getElementsByClassName('nav-link-inactive');
     navPrev = document.body.getAttribute('background');
-    defOpac = 0.95;
+    defOpac = 0.96;
     defLumi = 1;
 
     // Set body background

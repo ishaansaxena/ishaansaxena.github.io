@@ -68,4 +68,4 @@ At the end of the analysis of Descartes’ argument for his doctrine of duality,
 13. <span id="13">Shapiro, L. (2007). The Correspondence Between Princess Elisabeth and Descartes, p. 69 </span>
 14. <span id="14">Ariew, R. (2000). Descartes: Philosophical Essays and Correspondence, p. 168-171</span>
 
-<center><a href="/blog/assets/files/dualism.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/dualism.pdf">View Original Document</a>

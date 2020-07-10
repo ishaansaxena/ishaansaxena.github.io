@@ -65,4 +65,4 @@ As such, these objections together indicate any theory of personal identity that
 12. <span id="12">Locke, J. (1690). An Essay Concerning Human Understanding, Book II, Chapter XXVII, &sect;20</span>
 13. <span id="13">Personal Identity, Encyclopedia Britannica. Section on Traditional Criticisms https://www.britannica.com/topic/personal-identity</span>
 
-<center><a href="/blog/assets/files/personal_identity.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/personal_identity.pdf">View Original Document</a>

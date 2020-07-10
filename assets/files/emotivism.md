@@ -107,4 +107,4 @@ While the meta-ethical theory of Emotivism does have some minor flaws, I believe
 11. <span id="11">Hudson, W. D. (1970). Modern Moral Philosophy. Macmillan and Co. Ltd.</span>
 12. <span id="12">Brandt, Richard (1959). Ethical Theory. Englewood Cliffs: Prentice Hall.</span>
 
-<center><a href="/blog/assets/files/emotivism.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/emotivism.pdf">View Original Document</a>

@@ -74,4 +74,4 @@ Clearly, the Kantian doctrine of Transcendental Idealism leads to a distinction 
 17. <span id="17">Kant, I., & Ellington, J. W. (2001). Prolegomena to Any Future Metaphysics. Part 1, Remark II.</span>
 18. <span id="18">Kant, I., & Ellington, J. W. (2001). Prolegomena to Any Future Metaphysics. Part 1, Remark II; §15.</span>
 
-<center><a href="/blog/assets/files/transcendental_idealism.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/transcendental_idealism.pdf">View Original Document</a>

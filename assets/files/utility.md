@@ -61,4 +61,4 @@ From this, we can conclude that there is not a complete overlap between the noti
 6. <span id="6">Mill, John Stuart. "Utilitarianism." In Ethics: History, theory, and contemporary issues, Chapter V 22, pp. 394-396.</span>
 7. <span id="7">Le Guin, Ursula K. "The ones who walk away from Omelas." (1973): pp. 275-284.</span>
 
-<center><a href="/blog/assets/files/utility.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/utility.pdf">View Original Document</a>

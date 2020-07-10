@@ -70,4 +70,4 @@ The notion of the moral potential of human beings is certainly one that is quite
 9. <span id="9">Nietzsche, F. W.; Kaufmann, W. A.; Hollingdale, R. J. (1989). On the Genealogy of Morals. New York: Vintage Books.</span>
 
 
-<center><a href="/blog/assets/files/existentialism_and_ethics.pdf">View Original Document</a></center>
+<a href="/blog/assets/files/existentialism_and_ethics.pdf">View Original Document</a>
