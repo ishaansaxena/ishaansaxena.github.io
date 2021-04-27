@@ -3,21 +3,23 @@
 $white: #fefefe
 $black: #333
 $green: #009688
-$grey: #f2f2f2
-$blue: darken(#4183D7, 20%)
+$grey:  #f2f2f2
+$blue:    darken(#4183D7, 20%)
+$em:    #f1828d
+
 
 ::-moz-selection
-    background: $black
+    background: $em
     color: $white
     text-shadow: none
 
 ::selection
-    background: $black
+    background: $em
     color: $white
     text-shadow: none
 
 html
-    background: $grey
+    background: black
 
 body
     top: 0
@@ -25,17 +27,18 @@ body
     height: 100%
     width: 100%
     font-family: "Jost", san-serif
-    background: url(../images/words.jpg) center center;
+    background: url(../images/words.jpg) center center
+    color: #ccc
 
 a
-    color: $green
+    color: $em
 
     &:hover
-        color: darken($green, 5%)
+        color: darken($em, 5%)
 
 .content
     display: block
-    background: rgba(255, 255, 255, 0.95)
+    background: rgba(0, 0, 0, 0.97)
     min-height: 100vh
     width: 100%
 
@@ -49,29 +52,25 @@ a
     @media(max-width: 800px)
         padding: 20px 20px
 
-    h1
-        margin: 0
-        font-size: 3rem
-        font-weight: 400
-        color: $black
-
     .blog-link
         display: block
         font-size: 1rem
         text-decoration: none
-        color: darken($grey, 15%)
+        color: $em
         margin-bottom: 1rem
 
     h1
         margin: 0
         font-size: 2.5rem
         font-weight: 400
-        color: $black
+        color: white
 
     h2, h3, h4, h5, h6
         margin-top: 2rem
         margin-bottom: 1rem
         font-weight: 500
+        color: white
+        font-weight: 300
 
     p
         margin: 0
@@ -84,7 +83,7 @@ a
         position: relative
         padding: 1rem
         width: auto
-        background: #e8e8e8
+        background: #eee
 
     pre.prettyprint
         border: none !important
@@ -107,85 +106,11 @@ a
         display: block
         // text-align: center
         margin-bottom: 2rem
-        color: #777
+        color: #888
 
     img
         margin: 1rem 0
         width: 100%
-
-// .article-container
-
-//     .article-group
-//         display: block
-//         position: relative
-//         margin: 0 0 2rem 0
-
-//         .year
-//             position: relative
-//             top: 0
-//             background: $white
-//             display: inline-block
-//             width: 100%
-//             text-align: center
-//             padding: 2rem 0 2rem 0
-//             margin-top: 0
-//             margin-bottom: 0rem
-//             font-size: 2rem
-//             font-weight: 400
-//             letter-spacing: 3px
-//             color: $black
-//             &::after
-//                 content: ''
-//                 display: block
-//                 position: relative
-//                 top: 0
-//                 width: 10rem
-//                 height: 1px
-//                 // box-shadow: inset 0 0 0 0 #000
-//                 background: #dfe2df
-//                 transform: translate(0, 0.5rem)
-//                 transition: all 0.5s ease
-//                 margin: 0.5rem auto 0 auto
-//                 // margin-left: -100%
-//                 opacity: 1
-//             @media (max-width: 768px)
-//                 position: sticky
-//                 background: darken($white, 2%)
-//                 box-shadow: inset 0 1rem 0 0 $white, inset 0 -1.25rem 0 0 $white
-//                 font-size: 1.5rem
-//                 &::after
-//                     opacity: 0
-
-//         &:hover
-//             .year::after
-//                 background: $black
-//                 // margin-left: 0
-//                 // box-shadow: inset 0 0 0 1px #000
-
-//     .article
-//         display: block
-//         text-decoration: none
-//         text-align: center
-//         margin-bottom: 2rem
-
-//         .heading
-//             font-size: 1.25rem
-//             color: $black
-
-//         .meta
-//             font-size: 1rem
-
-//         .heading, .meta
-//             margin: 0
-//             line-height: 1.25
-//             transition: all 0.2s ease-in-out
-
-//         &:hover
-//             .heading
-//                 transform: translateY(0.6rem)
-//             .meta
-//                 transform: translateY(-0.6rem)
-//                 opacity: 0
 
 pre
     white-space: pre-wrap
