@@ -2,14 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Average");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
-@-ms-viewport {
-  width: device-width;
-}
-
 ::-moz-selection {
   background: #f1828d;
 }
-
 ::selection {
   background: #f1828d;
 }
@@ -34,9 +29,17 @@ a {
   text-decoration: underline;
   color: #aaa;
 }
-
 a:hover {
   color: white;
+}
+
+.revolution {
+  margin: 3rem 0 0 0;
+  color: #333;
+}
+
+.light-text {
+  color: #ddd;
 }
 
 .container {
@@ -48,46 +51,36 @@ a:hover {
   position: fixed;
   padding: 1rem;
   height: 100%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
-
 .nav .emblem {
   text-align: center;
   color: #ccc;
   text-decoration: none;
 }
-
 .nav .title {
   margin: 5rem 0;
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   text-orientation: sideways;
   font-weight: 300;
 }
-
 .nav .title h1 {
   margin: 0;
   font-size: 1rem;
 }
-
 .nav .nav-item {
   display: block;
   margin: 2rem 0;
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   text-orientation: sideways;
   text-decoration: none;
   text-transform: lowercase;
   font-weight: 100;
   color: #aaa;
 }
-
 .nav .nav-item:hover {
   color: white;
 }
-
 .nav .nav-item.active {
   color: white;
 }
@@ -95,38 +88,32 @@ a:hover {
 .content {
   width: auto;
   padding: 5.5rem 10rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
-
 @media (max-width: 800px) {
   .content {
     padding: 5.5rem 7rem;
   }
 }
-
 @media (max-width: 600px) {
   .content {
     padding: 5.5rem 2rem 2rem 4rem;
   }
 }
-
 .content p {
   width: 50%;
   font-size: 1.25rem;
 }
-
 @media (max-width: 1200px) {
   .content p {
     width: 75%;
   }
 }
-
 @media (max-width: 800px) {
   .content p {
     width: 100%;
   }
 }
-
 .content .about-link {
   display: inline-block;
   margin: 3rem 2rem 0 0;
@@ -134,176 +121,149 @@ a:hover {
   text-decoration: none;
   color: #f1828d;
 }
-
 @media (max-width: 800px) {
   .content .about-link {
     margin: 3rem 0.5rem 0 0;
   }
 }
-
 .content .work-link {
   display: inline-block;
   margin: 0 1rem 0 0;
   font-size: 1rem;
   text-decoration: none;
 }
-
 @media (max-width: 800px) {
   .content .work-link {
     margin: 0 0.5rem 0 0;
   }
 }
-
-.content .section h2 {
-  margin: 1rem 0 2rem 0;
-  font-size: 3rem;
+.content .section h2, .content .section h3 {
   font-weight: 100;
 }
-
+.content .section h2 {
+  font-size: 3rem;
+  margin: 3rem 0 2rem 0;
+}
+.content .section h2.small-margin {
+  margin: 0rem 0 2rem 0;
+}
+.content .section h3 {
+  font-size: 1.25 rem;
+  margin: 1rem 0 1rem 0;
+}
 .content .section .subsection {
   text-decoration: none;
   color: white;
   display: block;
   width: 50%;
+  margin: 0 0 2rem 0;
 }
-
 @media (max-width: 1200px) {
   .content .section .subsection {
     width: 75%;
   }
 }
-
 @media (max-width: 800px) {
   .content .section .subsection {
     width: 100%;
   }
 }
-
 .content .section .subsection .title {
   margin: 0;
   font-size: 1.15rem;
-  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
-
 .content .section .subsection .date {
   margin: 0.15rem 0 0 0;
   font-size: 1rem;
   color: #f1828d;
-  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
+  opacity: 0.8;
 }
-
 .content .section .subsection .desc {
-  font-size: 1.15rem;
-  margin: 0.5rem 0 3rem 0;
+  font-size: 1rem;
+  margin: 0.25rem 0 1rem 0;
   width: 100%;
-  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   color: #bbb;
+  opacity: 0.8;
 }
-
 .content .section .subsection:hover .title {
-  -webkit-transform: translateY(0.75rem);
-          transform: translateY(0.75rem);
+  transform: translateY(0.75rem);
 }
-
 .content .section .subsection:hover .date {
-  -webkit-transform: translateY(-0.5rem);
-          transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
   opacity: 0;
 }
-
 .content .section .subsection:hover .desc {
-  -webkit-transform: translateY(-0.75rem);
-          transform: translateY(-0.75rem);
+  transform: translateY(-0.75rem);
+  opacity: 1;
 }
-
 .content .grid {
-  display: -ms-grid;
   display: grid;
   grid-gap: 0.75rem;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
-
 @media (max-width: 1000px) {
   .content .grid {
-    -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
-
 .content .grid .grid-item {
   display: block;
   position: relative;
   height: 360px;
   background: #f1828d;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   text-orientation: sideways;
   text-decoration: none;
   color: white;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .content .grid .grid-item .info {
   display: block;
   position: absolute;
   padding: 1rem;
 }
-
 .content .grid .grid-item .title {
   margin: 0;
 }
-
 .content .grid .grid-item .desc {
   margin: 0;
   font-weight: 100;
   width: auto;
 }
-
 .content .grid .grid-item .desc-long {
   margin: 1rem 4rem 0 1rem;
   font-weight: 300;
   opacity: 0;
   display: none;
 }
-
 .content .grid .grid-item .desc-long a {
   text-decoration: none;
   display: inline;
   position: relative;
 }
-
 .content .grid .grid-item img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   opacity: 0.15;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-
 .content .grid .grid-item:hover {
-  -webkit-writing-mode: horizontal-tb;
-      -ms-writing-mode: lr-tb;
-          writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
 }
-
 .content .grid .grid-item:hover .desc, .content .grid .grid-item:hover .title {
   opacity: 0;
   display: none;
 }
-
 .content .grid .grid-item:hover .desc-long {
   display: block;
   opacity: 1;
 }
-
 @media (max-width: 1000px) {
   .content .grid .grid-item {
     height: 240px;
@@ -317,5 +277,4 @@ a:hover {
   .content .grid .grid-item .desc-long {
     margin: 0;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
