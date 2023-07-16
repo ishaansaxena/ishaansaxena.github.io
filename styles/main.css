@@ -35,7 +35,7 @@ a:hover {
 
 .revolution {
   margin: 3rem 0 0 0;
-  color: #333;
+  color: #666;
 }
 
 .light-text {
@@ -142,7 +142,7 @@ a:hover {
 }
 .content .section h2 {
   font-size: 3rem;
-  margin: 3rem 0 2rem 0;
+  margin: 5rem 0 2rem 0;
 }
 .content .section h2.small-margin {
   margin: 0rem 0 2rem 0;
